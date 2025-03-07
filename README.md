@@ -129,7 +129,7 @@ npm run dev
 The demo is also available on GitHub Pages:
 
 ```
-https://yourusername.github.io/canvasmint/
+https://jaclight.github.io/canvasmint/
 ```
 
 The GitHub Pages demo is automatically updated whenever changes are merged to the main branch, thanks to the GitHub Actions workflow configured in `.github/workflows/deploy-demo.yml`.
