@@ -106,6 +106,8 @@ canvasmint/
 
 ## Demo
 
+### Running Locally
+
 To run the demo locally:
 
 ```bash
@@ -118,8 +120,19 @@ npm install
 
 # Run the demo
 cd demo
+npm install
 npm run dev
 ```
+
+### GitHub Pages Demo
+
+The demo is also available on GitHub Pages:
+
+```
+https://yourusername.github.io/canvasmint/
+```
+
+The GitHub Pages demo is automatically updated whenever changes are merged to the main branch, thanks to the GitHub Actions workflow configured in `.github/workflows/deploy-demo.yml`.
 
 ## Migration
 

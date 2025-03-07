@@ -4,6 +4,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
     plugins: [react()],
+    base: '/canvasmint/', // Add this line for GitHub Pages - should match your repository name
     resolve: {
         alias: {
             '@': resolve(__dirname, 'src'),
