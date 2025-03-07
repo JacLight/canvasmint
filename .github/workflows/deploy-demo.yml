@@ -37,6 +37,8 @@ jobs:
         run: |
           cd demo
           npm run build
+          # Create .nojekyll file to prevent Jekyll processing
+          touch dist/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
