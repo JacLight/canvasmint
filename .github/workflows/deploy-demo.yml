@@ -19,12 +19,12 @@ jobs:
           cache: 'npm'
 
       - name: Install main project dependencies
-        run: npm ci
+        run: npm install
 
       - name: Install demo dependencies
         run: |
           cd demo
-          npm ci
+          npm install
 
       - name: Build main project
         run: npm run build
