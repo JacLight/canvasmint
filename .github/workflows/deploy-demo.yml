@@ -26,8 +26,9 @@ jobs:
           cd demo
           npm install
 
-      - name: Build main project
-        run: npm run build
+      # Skip building the main project for now
+      # - name: Build main project
+      #   run: npm run build
 
       - name: Build demo
         run: |

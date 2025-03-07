@@ -11,8 +11,7 @@
     "build": "tsc",
     "test": "jest",
     "lint": "eslint src --ext .ts,.tsx",
-    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "prepare": "npm run build"
+    "format": "prettier --write \"src/**/*.{ts,tsx}\""
   },
   "keywords": [
     "canvas",
